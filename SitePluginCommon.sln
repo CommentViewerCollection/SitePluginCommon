@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitePluginCommon", "SitePluginCommon\SitePluginCommon.csproj", "{AAF4779F-F8BF-4794-A6E8-4ED88A8B6B68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitePlugin", "ISitePlugin\ISitePlugin\SitePlugin.csproj", "{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "IPlugin\IPlugin\Plugin.csproj", "{735CFEEE-5B77-4D36-977B-4CD94A6F3CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserCookieInterfaces", "BrowserCookieInterfaces\BrowserCookieInterfaces\BrowserCookieInterfaces.csproj", "{CDBBBF25-AD0C-4EAF-B673-EB0BB198585A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{AAF4779F-F8BF-4794-A6E8-4ED88A8B6B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAF4779F-F8BF-4794-A6E8-4ED88A8B6B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAF4779F-F8BF-4794-A6E8-4ED88A8B6B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735CFEEE-5B77-4D36-977B-4CD94A6F3CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735CFEEE-5B77-4D36-977B-4CD94A6F3CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735CFEEE-5B77-4D36-977B-4CD94A6F3CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735CFEEE-5B77-4D36-977B-4CD94A6F3CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBBBF25-AD0C-4EAF-B673-EB0BB198585A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBBBF25-AD0C-4EAF-B673-EB0BB198585A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBBBF25-AD0C-4EAF-B673-EB0BB198585A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBBBF25-AD0C-4EAF-B673-EB0BB198585A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
